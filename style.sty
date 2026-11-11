@@ -1,0 +1,87 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{style}[PackageTheses]
+
+\RequirePackage[left=1.0in,right=1.0in,top=1.0in,bottom=1.0in]{geometry}
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsfonts}
+\RequirePackage{amsthm}
+
+\RequirePackage{multicol}
+\RequirePackage{multirow}
+\RequirePackage{hyperref}
+\hypersetup{colorlinks = true, citecolor = blue, urlcolor=blue, linkcolor = blue}
+\RequirePackage[final]{graphicx}
+\RequirePackage{stackrel}
+\RequirePackage[table,xcdraw]{xcolor}
+\RequirePackage{enumerate}
+\RequirePackage{enumitem}
+\RequirePackage{float}
+\RequirePackage{longtable}
+
+\RequirePackage{fancyhdr}
+\RequirePackage{chngpage}
+\RequirePackage{emptypage}
+
+\RequirePackage{epsf}
+\RequirePackage{epstopdf}
+
+\RequirePackage{caption}
+\RequirePackage{subcaption}
+\captionsetup{width=.75\textwidth}
+
+
+\RequirePackage{float}
+\RequirePackage{bbm}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage[flushleft]{threeparttable}
+
+\RequirePackage[round]{natbib}
+
+\RequirePackage{datetime}
+\RequirePackage{appendix}
+\RequirePackage{booktabs}
+\RequirePackage[multiple]{footmisc}
+
+\setlength{\textheight}{22cm}
+\setlength{\textwidth}{16.51cm}
+\setlength{\oddsidemargin}{-0mm}
+\setlength{\parskip}{0.25cm}
+\setlength{\parindent}{0in}
+\setlength{\topmargin}{0in}
+
+\RequirePackage{tabularx}
+\RequirePackage{array}
+\RequirePackage{makecell}
+\RequirePackage{pdflscape}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}p{1.65cm}}
+\RequirePackage{adjustbox}
+\RequirePackage{cleveref} 
+%\cref{eq1,eq2,t1,eq3} The package identifies the type of environment and can reference multiple equations
+\RequirePackage{geometry}
+% \RequirePackage[indent=5pt, skip=15pt]{parskip}
+\RequirePackage{setspace}
+\onehalfspacing
+\interfootnotelinepenalty=10000 %footnotes on one page, avoid splitting 
+
+\RequirePackage[acronym]{glossaries-extra}
+
+% \RequirePackage{minted} %For programming format
+% \newgeometry{top=0.75in,
+%             bottom=0.75in,
+%             outer=0.75in,
+%             inner=1.5in}           
+% Book binding margins
+
+%New Commands
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} 
+
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{\textit{Keywords---}} #1
+}
+
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\(^{#1}\)\fi}

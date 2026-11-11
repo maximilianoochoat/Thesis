@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: chicago.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: Bib/Literature.bib
+Warning--entry type for "paris2023chatgpt" isn't style-file defined
+--line 43 of file Bib/Literature.bib
+Warning--no volume for autor2003
+Warning--no number and no volume in Felten2023OccupationalHI
+Warning--page numbers missing in Felten2023OccupationalHI
+Warning--no number and no volume in humlum
+Warning--page numbers missing in humlum
+Warning--empty publisher in katz1999
+Warning--no volume for katz
+Warning--no volume for krueger
+You've used 30 entries,
+            2861 wiz_defined-function locations,
+            789 strings with 9895 characters,
+and the built_in function-call counts, 20209 in all, are:
+= -- 1689
+> -- 1550
+< -- 8
++ -- 484
+- -- 535
+* -- 1820
+:= -- 3744
+add.period$ -- 88
+call.type$ -- 30
+change.case$ -- 218
+chr.to.int$ -- 28
+cite$ -- 38
+duplicate$ -- 516
+empty$ -- 1140
+format.name$ -- 629
+if$ -- 3714
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 20
+newline$ -- 151
+num.names$ -- 296
+pop$ -- 152
+preamble$ -- 1
+purify$ -- 395
+quote$ -- 0
+skip$ -- 580
+stack$ -- 0
+substring$ -- 957
+swap$ -- 165
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 572
+warning$ -- 8
+while$ -- 271
+width$ -- 0
+write$ -- 399
+(There were 9 warnings)

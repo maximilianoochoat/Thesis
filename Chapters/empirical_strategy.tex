@@ -1,0 +1,20 @@
+\section{Empirical strategy}
+
+In order to study the effect ChatGPT's release had on employment, wages and informality I employ a \glsxtrfull{DID} strategy exploiting variation variation in exposure across occupations and the sudden availability and accesibility of ChatGPT in November 2022. \cref{DID} relates an outcome of interest with exposure to \glsxtrfull{AI}:
+
+\begin{equation}
+    \label{DID}
+    Y_{jt} = \gamma \text{Post}_{t=2022q4} \times \text{ExposureGPT}_j + X_{jt} + \mu_j + \varphi_t + \varepsilon_{jt}
+\end{equation}
+
+Where $Y_{jt}$ is imputed monthly earnings, employment measured as the number of workers in occupation $j$, and rate of informality in occupation $j$ on time $t$. $\text{ExposureGPT}_j$ is a dummy denoting exposition equal to 1 if the occupation $j$ is above the median exposure measure $\beta$ or $\alpha$. I also include a vector of controls accounting for possible changes in composition in occupation $j$. Said controls are the share of female workers, average years of schooling and average age in occupation $j$ at quarter $t$. I include occupation and time fixed effects and errors are clustered at the occupation level. \cref{DID} is then estimated with weighted least squares by weighing each occupation in each quarter by its number of workers. I interpret the main coefficient of interest $\gamma$ as the intent to treat effect of exposure to \glsxtrshort{AI}. This is because the adoption of \glsxtrshort{AI} across firms is likely heterogeneous across occupations. Therefore I am likely underestimating the effect of actual adoption.
+
+The main identifying assumption for the interpretation of $\gamma$ to hold is that the sudden release of ChatGPT is not foreseen by firms and workers and the standard parallel trends assumption of \glsxtrshort{DID} also implies that occupations in the treatment and control are following the same trends in the outcome measures of interest previous to the release date of ChatGPT. In order to verify the parallel trends assumption, I adapt \cref{DID} to an event study. \cref{ES} is the main specification for the event study estimates with a reference period in the 3rd quarter of 2022.
+
+\begin{equation}
+    \label{ES}
+    Y_{jt} = \sum_{\tau \neq -1} \gamma_\tau \, \text{1} \{t - 2023\text{Q}1 = \tau\} \times \text{ExposureGPT}_j + X_{jt} + \mu_j + \varphi_t + \varepsilon_{jt}
+\end{equation}
+
+Each $\gamma_{\tau}$ is a time relative to treatment effect. Each pre treatment period ($\tau < 0$) is evidence on the parallel trends assumption and given my sample window, I have nine periods before ChatGPT's release date versus 14 periods post treatment.
+

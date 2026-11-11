@@ -1,0 +1,32 @@
+
+\section{Results}\label{sec:results}
+
+This section presents the estimated effects of ChatGPT's release on earnings, employment and informality in exposed occupations. I first show the main \glsxtrfull{DID} estimates, then the event study estimates are used to assess pretrends and dynamics, and finally I discuss how these results relate to the literature and their limitations.
+
+\subsection{Main DiD estimates}\label{subsec:did}
+
+\cref{tab:did_main} reports the estimates of $\gamma$ from \cref{DID}, for the four exposure definitions (human and GPT-4o assessments, $\alpha$ and $\beta$ thresholds).
+
+Firslty, exposed occupations experienced a relative increase in monthly earnings after the release of ChatGPT. The estimate is positive in all four specifications and statistically significant at the 1\% level in three of them: 1{,}011 MXN under human $\alpha$, 625 MXN under GPT-4o $\alpha$ and 750 MXN under GPT-4o $\beta$. These coefficients correspond to the respective interpretations of the exposure measures. The most exposed group (i.e. human $\alpha$) shows the largest effect. The exception is human $\beta$, where the estimate (259 MXN) is not statistically different from zero. The statistical insignificance of this coefficient points towards the least exposed occupations that are a part of the human classification. I also find no evidence that the number of workers changed differentially in exposed occupations. Point estimates are close to zero in all specifications and none are statistically significant. The estimates for the number of informal workers are positive in all specifications, ranging from 0.042 to 0.072 log points, and are statistically significant (at the 5\% or 10\% level) in three of the four columns. The result is weaker than the earnings result, and Section~\ref{subsec:event} shows that it is not stable over time, so I treat it with caution.
+
+To further breathe proof that the imputation procedure did not interfere with my estimates, I run a regression of my main specification in \cref{DID} with the outcome of measure as the sahre of imputed wages in the occupation. The share of imputed wages does not change differentially after the release in three of the four specifications. The coefficient is only marginally significant under GPT-4o $\beta$ (0.6 percentage points, significant at 10\%). Since the earnings estimates are positive and significant under the specifications where imputation shows no change, it is unlikely that the earnings result is mechanically driven by the imputation procedure.
+
+\subsection{Event study}\label{subsec:event}
+
+\cref{fig:es_monthly_earnings,fig:es_log_emp,fig:es_log_informal} plot the coefficients $\gamma_\tau$ from \cref{ES}, relative to the reference quarter (2022 Q4). Full estimates are reported in \cref{tab:es_wage_imp,tab:es_log_emp,tab:es_log_informal}.
+
+Refering to \cref{fig:es_monthly_earnings}, before the release of ChatGPT, the coefficients are small and for the most part statistically indistinguishable from zero under both exposure measures, which supports the parallel trends assumption. There are two exceptions under GPT-4o $\alpha$, at $\tau=-7$ and $\tau=-2$, where the coefficients are positive and significant (about 239 and 206 MXN). These are small compared with the post estimates and do not follow a clear upward trend, but they should be kept in mind. After the release, the coefficients become positive and significant in the first quarter in most specifications and grow over time. Under human $\alpha$ the effect reaches about 1{,}460 MXN. Under the GPT measures the effect hovers around 900 to 1{,}500 MXN. Human $\beta$ is the exception as the coefficients are positive but mostly not differentiated from zero, which is consistent with the DiD estimate in \cref{tab:did_main}. Overall, the event study shows that the earnings effect is not only positive and significant, but also increasing over time and concentrated on the most exposed treatment groups.
+
+Estimates for employment, defined as the number of workers in a given occupation, are small throughout. Some pre period coefficients are statistically significant and negative, mostly for the human $\alpha$ and GPT-4o $\alpha$ measures ($\tau=-5$ to $\tau=-1$). This suggests that treated occupations were growing slightly more slowly than control occupations just before the release, and it is a threat to the parallel trends assumption for this outcome. The coefficients under the human measures remain close to zero. Under the GPT-4o measures, they become positive and significant around 2024 Q4 to 2025 Q2. The fuzzy standard errors at the beggining of the sample period show a loss of information for those quarters because of the transition from \glsxtrshort{ENOEN} to \glsxtrshort{ENOE}.
+Finalley, pre period coefficients for informal workers are mostly insignificant. In the post period, the number of informal workers in exposed occupations rises relative to control, with the clearest effects under GPT-4o $\beta$. By 2026 Q2, however, the coefficients return to zero or turn slightly negative, so the increase appears temporary and noisy.
+
+
+\subsection{Robustness}
+
+
+
+
+
+\subsection{Discussion}
+
+Taken together, the results suggest further wage polarization. \cref{tab:sumstats_exposure_alpha_gpt,tab:sumstats_exposure_alpha_human,tab:sumstats_exposure_beta_gpt,tab:sumstats_exposure_beta_human} characterize exposed occupations with higher wage, education, formality and share of female workers in line with \cite{azuara,worldbank,martinez2024risk}. The $\alpha$ measure in particular identifies an exposed group with these characteristics and a higher difference with the control group.

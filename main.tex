@@ -1,0 +1,55 @@
+\documentclass[12pt, twoside]{article}
+\usepackage{style}
+\setabbreviationstyle[acronym]{long-short}
+\newacronym{LLM}{LLM}{large language model}
+\newacronym{ENOE}{ENOE}{Encuesta Nacional de Ocupación y Empleo}
+\newacronym{DID}{DiD}{Differences in Differences}
+\newacronym{SINCO}{SINCO}{Sistema Nacional de Clasificación de Ocupaciones }
+\newacronym{AI}{AI}{Artificial Intelligence}
+\newacronym{INEGI}{INEGI}{Instituto Nacional de Estadística y Geografía}
+\newacronym{ETOE}{ETOE}{Encuesta Telefónica de Ocupación y Empleo 2020}
+\newacronym{ENOEN}{ENOEN}{Encuesta Nacional de Ocupación y Empleo Nueva Edición}
+% \newacronym{internal-name}{displayed-name}{long-name}
+% \makeglossaries   %pegar el glosario de palabras
+% \acrfull{}                                                             
+% \acrlong{}
+% \acrshort{}
+
+\title{How do mexican labor markets adjust to ChatGPT on the short term?\thanks{I thank XXXX. I take full responsibility for any remaining errors in this work.}}
+\author{Maximiliano Ochoa Trancoso\thanks{Student of Undergrad Program in Economics at El Colegio de México. Email: \href{mailto:mochoat@colmex.mx}{mochoat@colmex.mx}} \\ [-1pt]{\normalsize \textit{El Colegio de México}} \\}
+
+\date{Fall 2026}
+
+
+\begin{document}
+
+\begin{singlespace}
+    \maketitle
+    \begin{abstract}
+        Abstract
+    \end{abstract}
+
+    \keywords{GPT, DiD, worker flows, employment}
+\end{singlespace}
+\newpage
+\tableofcontents
+
+\newpage
+\input{Chapters/intro}
+\input{Chapters/lit}
+\input{Chapters/data_and_outcomes}
+\input{Chapters/empirical_strategy}
+\input{Chapters/results}
+\input{Chapters/conclusion.tex}
+\appendix
+\newpage
+\input{Chapters/appendix1}
+\newpage
+\bibliographystyle{chicago}
+\bibliography{Bib/Literature}
+\newpage
+\listoffigures
+\newpage
+
+
+\end{document}
