@@ -361,6 +361,8 @@ INPUT Chapters\results.tex
 INPUT C:\Users\Max\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Chapters\conclusion.tex
 INPUT .\Chapters\conclusion.tex
+INPUT .\Chapters\conclusion.tex
+INPUT .\Chapters\conclusion.tex
 INPUT Chapters\conclusion.tex
 INPUT .\Chapters\appendix1.tex
 INPUT .\Chapters\appendix1.tex
@@ -732,6 +734,11 @@ INPUT .\Figures\placebo_time-eps-converted-to.pdf
 INPUT .\Figures\placebo_time-eps-converted-to.pdf
 INPUT .\Figures\placebo_time-eps-converted-to.pdf
 INPUT .\Figures\placebo_time-eps-converted-to.pdf
+INPUT .\Chapters\appendix2.tex
+INPUT .\Chapters\appendix2.tex
+INPUT .\Chapters\appendix2.tex
+INPUT .\Chapters\appendix2.tex
+INPUT Chapters\appendix2.tex
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
