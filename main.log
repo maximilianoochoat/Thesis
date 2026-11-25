@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.3)  13 NOV 2026 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.3)  24 NOV 2026 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,24 +765,24 @@ File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -818,7 +818,7 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 25.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -844,11 +844,11 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\Max\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
  (C:\Users\Max\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (C:\Users\Max\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -857,11 +857,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] (Chapters/intro.tex [3]) (Chapters/lit.tex [4]
+ [2] (Chapters/intro.tex) (Chapters/lit.tex
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5] [6]) (Chapters/data_and_outcomes.tex [7] [8]
-Underfull \vbox (badness 7415) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -869,16 +875,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]) (Chapters/empirical_strategy.tex [12]) (Chapters/results.tex [13]
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [14]) (Chapters/conclusion.tex
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [15]) [16] (Chapters/appendix1.tex
+ [11]) (Chapters/empirical_strategy.tex [12]) (Chapters/results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [13] [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]) (Chapters/conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]) [17] (Chapters/appendix1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
 Package epstopdf Info: Source file: <Figures/exposure_dist_gpt.eps>
 (epstopdf)                    date: 2026-11-03 14:06:46
 (epstopdf)                    size: 200516 bytes
@@ -888,7 +897,7 @@ Package epstopdf Info: Source file: <Figures/exposure_dist_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/exposure_dist_gpt-eps-converted-to.pdf Figures/exposure_dist_gpt.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/exposure_dist_gpt-eps-converted-to.pdf, id=467, 578.16pt x 397.485pt>
+<Figures/exposure_dist_gpt-eps-converted-to.pdf, id=481, 578.16pt x 397.485pt>
 File: Figures/exposure_dist_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/exposure_dist_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/exposure_dist_gpt-eps-converted-to.pdf  used on input line 76.
@@ -902,7 +911,7 @@ Package epstopdf Info: Source file: <Figures/exposure_dist_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/exposure_dist_human-eps-converted-to.pdf Figures/exposure_dist_human.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/exposure_dist_human-eps-converted-to.pdf, id=468, 578.16pt x 397.485pt>
+<Figures/exposure_dist_human-eps-converted-to.pdf, id=482, 578.16pt x 397.485pt>
 File: Figures/exposure_dist_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/exposure_dist_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/exposure_dist_human-eps-converted-to.pdf  used on input line 83.
@@ -910,7 +919,7 @@ Package pdftex.def Info: Figures/exposure_dist_human-eps-converted-to.pdf  used 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [19]
 Package epstopdf Info: Source file: <Figures/occupations_by_treatment.eps>
 (epstopdf)                    date: 2026-11-03 14:06:46
 (epstopdf)                    size: 87395 bytes
@@ -920,7 +929,7 @@ Package epstopdf Info: Source file: <Figures/occupations_by_treatment.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/occupations_by_treatment-eps-converted-to.pdf Figures/occupations_by_treatment.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/occupations_by_treatment-eps-converted-to.pdf, id=474, 578.16pt x 361.35pt>
+<Figures/occupations_by_treatment-eps-converted-to.pdf, id=489, 578.16pt x 361.35pt>
 File: Figures/occupations_by_treatment-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/occupations_by_treatment-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/occupations_by_treatment-eps-converted-to.pdf  used on input line 101.
@@ -934,7 +943,7 @@ Package epstopdf Info: Source file: <Figures/workers_by_treatment.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/workers_by_treatment-eps-converted-to.pdf Figures/workers_by_treatment.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/workers_by_treatment-eps-converted-to.pdf, id=475, 578.16pt x 361.35pt>
+<Figures/workers_by_treatment-eps-converted-to.pdf, id=490, 578.16pt x 361.35pt>
 File: Figures/workers_by_treatment-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/workers_by_treatment-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/workers_by_treatment-eps-converted-to.pdf  used on input line 108.
@@ -942,8 +951,8 @@ Package pdftex.def Info: Figures/workers_by_treatment-eps-converted-to.pdf  used
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./Figures/exposure_dist_gpt-eps-converted-to.pdf> <./Figures/exposure_dist_human-eps-converted-to.pdf>]
-<Figures/matrix.png, id=496, 569.0058pt x 569.0058pt>
+ [20 <./Figures/exposure_dist_gpt-eps-converted-to.pdf> <./Figures/exposure_dist_human-eps-converted-to.pdf>]
+<Figures/matrix.png, id=510, 569.0058pt x 569.0058pt>
 File: Figures/matrix.png Graphic file (type png)
 <use Figures/matrix.png>
 Package pdftex.def Info: Figures/matrix.png  used on input line 124.
@@ -951,13 +960,13 @@ Package pdftex.def Info: Figures/matrix.png  used on input line 124.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./Figures/occupations_by_treatment-eps-converted-to.pdf> <./Figures/workers_by_treatment-eps-converted-to.pdf>]
+ [21 <./Figures/occupations_by_treatment-eps-converted-to.pdf> <./Figures/workers_by_treatment-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./Figures/matrix.png>]
+ [22 <./Figures/matrix.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [23]
 Package epstopdf Info: Source file: <Figures/imp_share_gap_human.eps>
 (epstopdf)                    date: 2026-11-03 14:06:45
 (epstopdf)                    size: 74890 bytes
@@ -967,7 +976,7 @@ Package epstopdf Info: Source file: <Figures/imp_share_gap_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/imp_share_gap_human-eps-converted-to.pdf Figures/imp_share_gap_human.eps>
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/imp_share_gap_human-eps-converted-to.pdf, id=530, 433.62pt x 303.1325pt>
+<Figures/imp_share_gap_human-eps-converted-to.pdf, id=544, 433.62pt x 303.1325pt>
 File: Figures/imp_share_gap_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/imp_share_gap_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/imp_share_gap_human-eps-converted-to.pdf  used on input line 233.
@@ -981,7 +990,7 @@ Package epstopdf Info: Source file: <Figures/imp_share_gap_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/imp_share_gap_gpt-eps-converted-to.pdf Figures/imp_share_gap_gpt.eps>
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/imp_share_gap_gpt-eps-converted-to.pdf, id=531, 433.62pt x 303.1325pt>
+<Figures/imp_share_gap_gpt-eps-converted-to.pdf, id=545, 433.62pt x 303.1325pt>
 File: Figures/imp_share_gap_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/imp_share_gap_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/imp_share_gap_gpt-eps-converted-to.pdf  used on input line 240.
@@ -989,19 +998,19 @@ Package pdftex.def Info: Figures/imp_share_gap_gpt-eps-converted-to.pdf  used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./Figures/imp_share_gap_human-eps-converted-to.pdf> <./Figures/imp_share_gap_gpt-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
+ [25 <./Figures/imp_share_gap_human-eps-converted-to.pdf> <./Figures/imp_share_gap_gpt-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
 Package epstopdf Info: Source file: <Figures/dist_wage_imp_alpha_human.eps>
 (epstopdf)                    date: 2026-11-03 14:06:45
 (epstopdf)                    size: 126973 bytes
@@ -1011,7 +1020,7 @@ Package epstopdf Info: Source file: <Figures/dist_wage_imp_alpha_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf Figures/dist_wage_imp_alpha_human.eps>
 (epstopdf)             \includegraphics on input line 453.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf, id=571, 433.62pt x 289.08pt>
+<Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf, id=585, 433.62pt x 289.08pt>
 File: Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf  used on input line 453.
@@ -1025,7 +1034,7 @@ Package epstopdf Info: Source file: <Figures/dist_wage_imp_beta_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/dist_wage_imp_beta_human-eps-converted-to.pdf Figures/dist_wage_imp_beta_human.eps>
 (epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/dist_wage_imp_beta_human-eps-converted-to.pdf, id=572, 433.62pt x 289.08pt>
+<Figures/dist_wage_imp_beta_human-eps-converted-to.pdf, id=586, 433.62pt x 289.08pt>
 File: Figures/dist_wage_imp_beta_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/dist_wage_imp_beta_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/dist_wage_imp_beta_human-eps-converted-to.pdf  used on input line 460.
@@ -1039,7 +1048,7 @@ Package epstopdf Info: Source file: <Figures/dist_wage_imp_alpha_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf Figures/dist_wage_imp_alpha_gpt.eps>
 (epstopdf)             \includegraphics on input line 467.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf, id=573, 433.62pt x 289.08pt>
+<Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf, id=587, 433.62pt x 289.08pt>
 File: Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf  used on input line 467.
@@ -1053,7 +1062,7 @@ Package epstopdf Info: Source file: <Figures/dist_wage_imp_beta_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf Figures/dist_wage_imp_beta_gpt.eps>
 (epstopdf)             \includegraphics on input line 474.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf, id=574, 433.62pt x 289.08pt>
+<Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf, id=588, 433.62pt x 289.08pt>
 File: Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf  used on input line 474.
@@ -1061,7 +1070,7 @@ Package pdftex.def Info: Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf  us
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [29]
 Package epstopdf Info: Source file: <Figures/trend_wage_imp_alpha_human.eps>
 (epstopdf)                    date: 2026-11-03 23:38:14
 (epstopdf)                    size: 70127 bytes
@@ -1071,7 +1080,7 @@ Package epstopdf Info: Source file: <Figures/trend_wage_imp_alpha_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf Figures/trend_wage_imp_alpha_human.eps>
 (epstopdf)             \includegraphics on input line 492.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf, id=580, 433.62pt x 303.1325pt>
+<Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf, id=594, 433.62pt x 303.1325pt>
 File: Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf  used on input line 492.
@@ -1085,7 +1094,7 @@ Package epstopdf Info: Source file: <Figures/trend_wage_imp_beta_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_wage_imp_beta_human-eps-converted-to.pdf Figures/trend_wage_imp_beta_human.eps>
 (epstopdf)             \includegraphics on input line 499.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_wage_imp_beta_human-eps-converted-to.pdf, id=581, 433.62pt x 303.1325pt>
+<Figures/trend_wage_imp_beta_human-eps-converted-to.pdf, id=595, 433.62pt x 303.1325pt>
 File: Figures/trend_wage_imp_beta_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_wage_imp_beta_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_wage_imp_beta_human-eps-converted-to.pdf  used on input line 499.
@@ -1099,7 +1108,7 @@ Package epstopdf Info: Source file: <Figures/trend_wage_imp_alpha_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf Figures/trend_wage_imp_alpha_gpt.eps>
 (epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf, id=582, 433.62pt x 303.1325pt>
+<Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf, id=596, 433.62pt x 303.1325pt>
 File: Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf  used on input line 506.
@@ -1113,7 +1122,7 @@ Package epstopdf Info: Source file: <Figures/trend_wage_imp_beta_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf Figures/trend_wage_imp_beta_gpt.eps>
 (epstopdf)             \includegraphics on input line 513.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf, id=583, 433.62pt x 303.1325pt>
+<Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf, id=597, 433.62pt x 303.1325pt>
 File: Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf  used on input line 513.
@@ -1121,7 +1130,7 @@ Package pdftex.def Info: Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf  u
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf> <./Figures/dist_wage_imp_beta_human-eps-converted-to.pdf> <./Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf> <./Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf>]
+ [30 <./Figures/dist_wage_imp_alpha_human-eps-converted-to.pdf> <./Figures/dist_wage_imp_beta_human-eps-converted-to.pdf> <./Figures/dist_wage_imp_alpha_gpt-eps-converted-to.pdf> <./Figures/dist_wage_imp_beta_gpt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/trend_n_pop_alpha_human.eps>
 (epstopdf)                    date: 2026-11-03 23:38:11
 (epstopdf)                    size: 72281 bytes
@@ -1131,7 +1140,7 @@ Package epstopdf Info: Source file: <Figures/trend_n_pop_alpha_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_n_pop_alpha_human-eps-converted-to.pdf Figures/trend_n_pop_alpha_human.eps>
 (epstopdf)             \includegraphics on input line 530.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_n_pop_alpha_human-eps-converted-to.pdf, id=625, 433.62pt x 303.1325pt>
+<Figures/trend_n_pop_alpha_human-eps-converted-to.pdf, id=639, 433.62pt x 303.1325pt>
 File: Figures/trend_n_pop_alpha_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_n_pop_alpha_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_n_pop_alpha_human-eps-converted-to.pdf  used on input line 530.
@@ -1145,7 +1154,7 @@ Package epstopdf Info: Source file: <Figures/trend_n_pop_beta_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_n_pop_beta_human-eps-converted-to.pdf Figures/trend_n_pop_beta_human.eps>
 (epstopdf)             \includegraphics on input line 537.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_n_pop_beta_human-eps-converted-to.pdf, id=626, 433.62pt x 303.1325pt>
+<Figures/trend_n_pop_beta_human-eps-converted-to.pdf, id=640, 433.62pt x 303.1325pt>
 File: Figures/trend_n_pop_beta_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_n_pop_beta_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_n_pop_beta_human-eps-converted-to.pdf  used on input line 537.
@@ -1159,7 +1168,7 @@ Package epstopdf Info: Source file: <Figures/trend_n_pop_alpha_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf Figures/trend_n_pop_alpha_gpt.eps>
 (epstopdf)             \includegraphics on input line 544.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf, id=627, 433.62pt x 303.1325pt>
+<Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf, id=641, 433.62pt x 303.1325pt>
 File: Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf  used on input line 544.
@@ -1173,7 +1182,7 @@ Package epstopdf Info: Source file: <Figures/trend_n_pop_beta_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf Figures/trend_n_pop_beta_gpt.eps>
 (epstopdf)             \includegraphics on input line 551.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf, id=628, 433.62pt x 303.1325pt>
+<Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf, id=642, 433.62pt x 303.1325pt>
 File: Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf  used on input line 551.
@@ -1181,7 +1190,7 @@ Package pdftex.def Info: Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf  used
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf> <./Figures/trend_wage_imp_beta_human-eps-converted-to.pdf> <./Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf> <./Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf>]
+ [31 <./Figures/trend_wage_imp_alpha_human-eps-converted-to.pdf> <./Figures/trend_wage_imp_beta_human-eps-converted-to.pdf> <./Figures/trend_wage_imp_alpha_gpt-eps-converted-to.pdf> <./Figures/trend_wage_imp_beta_gpt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/trend_informal_alpha_human.eps>
 (epstopdf)                    date: 2026-11-03 23:38:16
 (epstopdf)                    size: 75205 bytes
@@ -1191,7 +1200,7 @@ Package epstopdf Info: Source file: <Figures/trend_informal_alpha_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_informal_alpha_human-eps-converted-to.pdf Figures/trend_informal_alpha_human.eps>
 (epstopdf)             \includegraphics on input line 568.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_informal_alpha_human-eps-converted-to.pdf, id=657, 433.62pt x 303.1325pt>
+<Figures/trend_informal_alpha_human-eps-converted-to.pdf, id=672, 433.62pt x 303.1325pt>
 File: Figures/trend_informal_alpha_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_informal_alpha_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_informal_alpha_human-eps-converted-to.pdf  used on input line 568.
@@ -1205,7 +1214,7 @@ Package epstopdf Info: Source file: <Figures/trend_informal_beta_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_informal_beta_human-eps-converted-to.pdf Figures/trend_informal_beta_human.eps>
 (epstopdf)             \includegraphics on input line 575.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_informal_beta_human-eps-converted-to.pdf, id=658, 433.62pt x 303.1325pt>
+<Figures/trend_informal_beta_human-eps-converted-to.pdf, id=673, 433.62pt x 303.1325pt>
 File: Figures/trend_informal_beta_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_informal_beta_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_informal_beta_human-eps-converted-to.pdf  used on input line 575.
@@ -1219,7 +1228,7 @@ Package epstopdf Info: Source file: <Figures/trend_informal_alpha_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_informal_alpha_gpt-eps-converted-to.pdf Figures/trend_informal_alpha_gpt.eps>
 (epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_informal_alpha_gpt-eps-converted-to.pdf, id=659, 433.62pt x 303.1325pt>
+<Figures/trend_informal_alpha_gpt-eps-converted-to.pdf, id=674, 433.62pt x 303.1325pt>
 File: Figures/trend_informal_alpha_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_informal_alpha_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_informal_alpha_gpt-eps-converted-to.pdf  used on input line 582.
@@ -1233,7 +1242,7 @@ Package epstopdf Info: Source file: <Figures/trend_informal_beta_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/trend_informal_beta_gpt-eps-converted-to.pdf Figures/trend_informal_beta_gpt.eps>
 (epstopdf)             \includegraphics on input line 589.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/trend_informal_beta_gpt-eps-converted-to.pdf, id=660, 433.62pt x 303.1325pt>
+<Figures/trend_informal_beta_gpt-eps-converted-to.pdf, id=675, 433.62pt x 303.1325pt>
 File: Figures/trend_informal_beta_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/trend_informal_beta_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/trend_informal_beta_gpt-eps-converted-to.pdf  used on input line 589.
@@ -1241,10 +1250,10 @@ Package pdftex.def Info: Figures/trend_informal_beta_gpt-eps-converted-to.pdf  u
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./Figures/trend_n_pop_alpha_human-eps-converted-to.pdf> <./Figures/trend_n_pop_beta_human-eps-converted-to.pdf> <./Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf> <./Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf>]
+ [32 <./Figures/trend_n_pop_alpha_human-eps-converted-to.pdf> <./Figures/trend_n_pop_beta_human-eps-converted-to.pdf> <./Figures/trend_n_pop_alpha_gpt-eps-converted-to.pdf> <./Figures/trend_n_pop_beta_gpt-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./Figures/trend_informal_alpha_human-eps-converted-to.pdf> <./Figures/trend_informal_beta_human-eps-converted-to.pdf> <./Figures/trend_informal_alpha_gpt-eps-converted-to.pdf> <./Figures/trend_informal_beta_gpt-eps-converted-to.pdf>]
+ [33 <./Figures/trend_informal_alpha_human-eps-converted-to.pdf> <./Figures/trend_informal_beta_human-eps-converted-to.pdf> <./Figures/trend_informal_alpha_gpt-eps-converted-to.pdf> <./Figures/trend_informal_beta_gpt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/es_wage_imp_human.eps>
 (epstopdf)                    date: 2026-11-03 18:40:18
 (epstopdf)                    size: 96155 bytes
@@ -1254,7 +1263,7 @@ Package epstopdf Info: Source file: <Figures/es_wage_imp_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/es_wage_imp_human-eps-converted-to.pdf Figures/es_wage_imp_human.eps>
 (epstopdf)             \includegraphics on input line 675.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/es_wage_imp_human-eps-converted-to.pdf, id=718, 578.16pt x 397.485pt>
+<Figures/es_wage_imp_human-eps-converted-to.pdf, id=732, 578.16pt x 397.485pt>
 File: Figures/es_wage_imp_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/es_wage_imp_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/es_wage_imp_human-eps-converted-to.pdf  used on input line 675.
@@ -1268,7 +1277,7 @@ Package epstopdf Info: Source file: <Figures/es_wage_imp_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/es_wage_imp_gpt-eps-converted-to.pdf Figures/es_wage_imp_gpt.eps>
 (epstopdf)             \includegraphics on input line 684.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/es_wage_imp_gpt-eps-converted-to.pdf, id=719, 578.16pt x 397.485pt>
+<Figures/es_wage_imp_gpt-eps-converted-to.pdf, id=733, 578.16pt x 397.485pt>
 File: Figures/es_wage_imp_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/es_wage_imp_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/es_wage_imp_gpt-eps-converted-to.pdf  used on input line 684.
@@ -1276,7 +1285,7 @@ Package pdftex.def Info: Figures/es_wage_imp_gpt-eps-converted-to.pdf  used on i
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [34]
 Package epstopdf Info: Source file: <Figures/es_log_emp_human.eps>
 (epstopdf)                    date: 2026-11-03 18:40:16
 (epstopdf)                    size: 96212 bytes
@@ -1286,7 +1295,7 @@ Package epstopdf Info: Source file: <Figures/es_log_emp_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/es_log_emp_human-eps-converted-to.pdf Figures/es_log_emp_human.eps>
 (epstopdf)             \includegraphics on input line 704.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/es_log_emp_human-eps-converted-to.pdf, id=726, 578.16pt x 397.485pt>
+<Figures/es_log_emp_human-eps-converted-to.pdf, id=740, 578.16pt x 397.485pt>
 File: Figures/es_log_emp_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/es_log_emp_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/es_log_emp_human-eps-converted-to.pdf  used on input line 704.
@@ -1300,7 +1309,7 @@ Package epstopdf Info: Source file: <Figures/es_log_emp_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/es_log_emp_gpt-eps-converted-to.pdf Figures/es_log_emp_gpt.eps>
 (epstopdf)             \includegraphics on input line 713.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/es_log_emp_gpt-eps-converted-to.pdf, id=727, 578.16pt x 397.485pt>
+<Figures/es_log_emp_gpt-eps-converted-to.pdf, id=741, 578.16pt x 397.485pt>
 File: Figures/es_log_emp_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/es_log_emp_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/es_log_emp_gpt-eps-converted-to.pdf  used on input line 713.
@@ -1308,7 +1317,7 @@ Package pdftex.def Info: Figures/es_log_emp_gpt-eps-converted-to.pdf  used on in
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./Figures/es_wage_imp_human-eps-converted-to.pdf> <./Figures/es_wage_imp_gpt-eps-converted-to.pdf>]
+ [35 <./Figures/es_wage_imp_human-eps-converted-to.pdf> <./Figures/es_wage_imp_gpt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/es_log_informal_human.eps>
 (epstopdf)                    date: 2026-11-03 18:40:17
 (epstopdf)                    size: 97659 bytes
@@ -1318,7 +1327,7 @@ Package epstopdf Info: Source file: <Figures/es_log_informal_human.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/es_log_informal_human-eps-converted-to.pdf Figures/es_log_informal_human.eps>
 (epstopdf)             \includegraphics on input line 733.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/es_log_informal_human-eps-converted-to.pdf, id=753, 578.16pt x 397.485pt>
+<Figures/es_log_informal_human-eps-converted-to.pdf, id=767, 578.16pt x 397.485pt>
 File: Figures/es_log_informal_human-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/es_log_informal_human-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/es_log_informal_human-eps-converted-to.pdf  used on input line 733.
@@ -1332,7 +1341,7 @@ Package epstopdf Info: Source file: <Figures/es_log_informal_gpt.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/es_log_informal_gpt-eps-converted-to.pdf Figures/es_log_informal_gpt.eps>
 (epstopdf)             \includegraphics on input line 742.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/es_log_informal_gpt-eps-converted-to.pdf, id=754, 578.16pt x 397.485pt>
+<Figures/es_log_informal_gpt-eps-converted-to.pdf, id=768, 578.16pt x 397.485pt>
 File: Figures/es_log_informal_gpt-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/es_log_informal_gpt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/es_log_informal_gpt-eps-converted-to.pdf  used on input line 742.
@@ -1340,7 +1349,7 @@ Package pdftex.def Info: Figures/es_log_informal_gpt-eps-converted-to.pdf  used 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./Figures/es_log_emp_human-eps-converted-to.pdf> <./Figures/es_log_emp_gpt-eps-converted-to.pdf>] [36 <./Figures/es_log_informal_human-eps-converted-to.pdf> <./Figures/es_log_informal_gpt-eps-converted-to.pdf>] [37] [38] [39] [40] [41]
+ [36 <./Figures/es_log_emp_human-eps-converted-to.pdf> <./Figures/es_log_emp_gpt-eps-converted-to.pdf>] [37 <./Figures/es_log_informal_human-eps-converted-to.pdf> <./Figures/es_log_informal_gpt-eps-converted-to.pdf>] [38] [39] [40] [41] [42]
 Package epstopdf Info: Source file: <Figures/placebo_time.eps>
 (epstopdf)                    date: 2026-11-09 22:00:06
 (epstopdf)                    size: 121760 bytes
@@ -1350,7 +1359,7 @@ Package epstopdf Info: Source file: <Figures/placebo_time.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/placebo_time-eps-converted-to.pdf Figures/placebo_time.eps>
 (epstopdf)             \includegraphics on input line 1025.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/placebo_time-eps-converted-to.pdf, id=829, 578.16pt x 505.89pt>
+<Figures/placebo_time-eps-converted-to.pdf, id=843, 578.16pt x 505.89pt>
 File: Figures/placebo_time-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/placebo_time-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/placebo_time-eps-converted-to.pdf  used on input line 1025.
@@ -1358,11 +1367,11 @@ Package pdftex.def Info: Figures/placebo_time-eps-converted-to.pdf  used on inpu
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42] [43 <./Figures/placebo_time-eps-converted-to.pdf>] (Chapters/appendix2.tex) [44] (main.bbl [45] [46]) [47] (main.lof)
+ [43] [44 <./Figures/placebo_time-eps-converted-to.pdf>] (Chapters/appendix2.tex) [45] (main.bbl [46] [47]) [48] (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [48] (main.aux)
+ [49] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
@@ -1371,15 +1380,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 255F7A804822048F26D3EDF8B76F3FA5;1437.
  ) 
 Here is how much of TeX's memory you used:
- 28700 strings out of 467392
- 555756 string characters out of 5406611
- 1116516 words of memory out of 5000000
- 57508 multiletter control sequences out of 15000+600000
- 645298 words of font info for 102 fonts, out of 8000000 for 9000
+ 28754 strings out of 467392
+ 556516 string characters out of 5406611
+ 1116418 words of memory out of 5000000
+ 57554 multiletter control sequences out of 15000+600000
+ 647139 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,11n,104p,2580b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,12n,104p,2580b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:PMM} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist, replaced by a fixed one
@@ -1394,6 +1403,9 @@ pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{glo:ENOEN} has been referenced but does not exist, replaced by a fixed one
 
 
@@ -1403,13 +1415,7 @@ pdfTeX warning (dest): name{glo:ETOE} has been referenced but does not exist, re
 pdfTeX warning (dest): name{glo:INEGI} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
-
-
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:AI} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:SINCO} has been referenced but does not exist, replaced by a fixed one
@@ -1418,7 +1424,7 @@ pdfTeX warning (dest): name{glo:SINCO} has been referenced but does not exist, r
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{glo:DID} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:AI} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:ENOE} has been referenced but does not exist, replaced by a fixed one
@@ -1427,12 +1433,15 @@ pdfTeX warning (dest): name{glo:ENOE} has been referenced but does not exist, re
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{glo:DID} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{glo:LLM} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (48 pages, 1793109 bytes).
+ <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Max\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Max/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (49 pages, 1814523 bytes).
 PDF statistics:
- 1014 PDF objects out of 1200 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
+ 1049 PDF objects out of 1200 (max. 8388607)
+ 146 named destinations out of 1000 (max. 500000)
  239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

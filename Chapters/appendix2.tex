@@ -1,2 +1,14 @@
 \section{Appendix: Monthly earnings imputation}
 
+One of the problems in \glsxtrfull{ENOE}, pointed out by \cite{imput}, is that a rising non random share of paid employed workers report zero hourly income despite working a positive number of hours and reporting an occupation. This caveat may bias estimates negatively if the wages are imputed as zero or the median, also losing variation. Moreover, my summary statistics reveal exposed occupations having higher income. Because of this I need to impute wages precisely in order to calculate the correct estimate. \cite{imput} points out several methods. I use methodology from \cite{conasami2023imputacion}. \glsxtrfull{PMM} predicts wages based on a regression by weighted least squares using individual characteristics based on the complete survey. Then it draws from a donor pool for each cell needing an imputed wage from the closest wage predicted in the sample. I restrict the pool to 5 donors and repeat the process ten times and impute the final wage as the average.
+
+\cite{conasami2023imputacion} specifies two models which are used depending on the reported minimum wage bracket.
+Let $i$ index individuals and $t$ index quarters. Let $y_{it}$ denote monthly labor earnings, and let $w_{it}$ be the ENOE quarterly expansion factor. Individuals are split into three groups: donors ($\mathcal{D}_t$), who report an earnings amount, recipients with bracket ($\mathcal{R}^{1}_t$), who do not report an amount but report a minimum-wage bracket $b_{it}$, and recipients without bracket ($\mathcal{R}^{2}_t$), who report neither.
+
+The covariate vector $\mathbf{x}_{it}$ contains: six age-group dummies, marital status, sex, locality type, employment condition, working day (full-time, 35 hours or more or part-time), five education levels, wage zone, and 52 two digit SINCO occupations. Let $\mathbf{b}_{it}$ be a vector of dummies for the five minimum-wage brackets.
+
+The two models differ only in whether the bracket is observed:
+\begin{align}
+    \text{Model 1 (bracket reported):} \quad y_{it} & = \mathbf{x}_{it}'\boldsymbol{\beta}_1 + \mathbf{b}_{it}'\boldsymbol{\delta} + \varepsilon_{it}, \qquad i \in \mathcal{D}_t \cup \mathcal{R}^{1}_t, \label{eq:model1} \\[4pt]
+    \text{Model 2 (no bracket):} \quad y_{it}       & = \mathbf{x}_{it}'\boldsymbol{\beta}_2 + \varepsilon_{it}, \qquad\qquad\;\; i \in \mathcal{D}_t \cup \mathcal{R}^{2}_t. \label{eq:model2}
+\end{align}
